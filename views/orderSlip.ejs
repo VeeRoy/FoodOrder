@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>order slip</h2>
+        <h3>Hello this is your order </h3>
+
+        <ul>
+            <% doo[0]["item"].forEach(function(de){ %>
+                <li><%= de.product + " " + " " + " " +" " + de.quantity %></li>
+                 
+             <% })%>
+        </ul>
+
+    </div>
+</body>
+</html>
